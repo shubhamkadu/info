@@ -1,0 +1,35 @@
+import React, { useEffect, useState } from "react";
+
+import About from "./About";
+import Home from "./Home";
+import Work from "./Work";
+import Resume from "./Resume";
+import Contact from "./Contact";
+// import Header from "./Header";
+// import { useSpring, animated } from "react-spring";
+
+function Feed() {
+  const [resumeData, setResumeData] = useState({});
+
+  useEffect(() => {
+    fetch("resumeData.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setResumeData(data);
+      });
+  }, []);
+
+  console.log(resumeData);
+  return (
+    <div className="bg-gradient-to-r from-indigo-200 via-purple-200 to-red-200">
+      {/* <Header data={resumeData.main} /> */}
+      <Home data={resumeData.main} />
+      <About data={resumeData.main} />
+      <Resume data={resumeData.resume} />
+      <Work data={resumeData.resume} portfolio={resumeData.portfolio} />
+      <Contact data={resumeData} />
+    </div>
+  );
+}
+
+export default Feed;

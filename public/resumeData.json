@@ -1,0 +1,118 @@
+{
+  "main": {
+    "name": "shubham kadu",
+    "occupation": "FullStack Developer",
+    "description": "I eat, sleep and breathe Technology",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am Shubham!. I've been coding for over 1 years now. As a Full Stack developer. I have worked both on small and large projects that help build strong skills.Along the journey i realised my passion existed in learning new things and implementing in projects to makes people life easier and faster.",
+    "contactmessage": "Get in touch with me",
+    "email": "shubhampkadu@gmail.com",
+    "phone": "+917020868854",
+    "address": {
+      "city": "India",
+      "District": "Yavatmal",
+      "state": "Maharastra",
+      "zip": "445304"
+    },
+
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/shubham-kadu-20b3791bb/",
+        "className": "fa fa-linkedin"
+      },
+
+      {
+        "name": "github",
+        "url": "https://github.com/shubhamkadu",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "Sant Gadge Baba University-Amravati",
+        "degree": "Bachelor's Degree, Electronics and telecommunication",
+        "graduated": "July 2020",
+        "description": "Graduated with First Class Honours"
+      }
+    ],
+    "work": [
+      {
+        "company": "Web Development",
+        "title": "FullStack Developer",
+        "years": "May 2020 - Present",
+        "description": "Cloning all the apps possible. On the way to clone the world!"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Nextjs",
+        "level": "60%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "80%"
+      },
+      {
+        "name": "Python",
+        "level": "60%"
+      },
+      {
+        "name": "Git",
+        "level": "40%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "75%"
+      },
+      {
+        "name": "Tailwind Css",
+        "level": "80%"
+      },
+      {
+        "name": "Nodejs",
+        "level": "80%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "60%"
+      },
+      {
+        "name": "Firebase",
+        "level": "50%"
+      },
+      {
+        "name": "Web Development",
+        "level": "85%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Airbnb Clone (Next JS)",
+        "category": "",
+        "image": "https://venturebeat.com/wp-content/uploads/2014/07/airbnb-logo-red.jpg?fit=2560%2C1440&strip=all",
+        "url": "https://github.com/shubhamkadu/airbnb-clone",
+        "demo": "https://airbnb-clone-git-main-shubhamkadu.vercel.app"
+      },
+      {
+        "title": "Netflix Clone (React JS)",
+        "category": "",
+        "image": "https://wallpaperaccess.com/full/2772922.png",
+        "url": "https://github.com/shubhamkadu/Netflix-clone",
+        "demo": "https://clone-netflix-92f95.web.app"
+      },
+      {
+        "title": "YouTube Clone (MERN)",
+        "category": "",
+        "image": "https://4.bp.blogspot.com/-leknhT42cPE/W1tvYU6eEaI/AAAAAAAABO8/tR03GgFQmswm7f9Newy2ZOUGCxf8WWr6wCLcBGAs/s1600/maxresdefault-9.jpg",
+        "url": "",
+        "demo": ""
+      }
+    ]
+  }
+}
