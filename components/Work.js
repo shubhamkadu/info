@@ -41,7 +41,7 @@ function Work({ data, portfolio }) {
       <Parallax
         pages={2}
         style={{
-          top: "1120px",
+          top: "1320px",
           left: "00",
           height: "400px",
         }}
