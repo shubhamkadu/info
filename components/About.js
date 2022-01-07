@@ -20,7 +20,7 @@ function About({ data }) {
 
   return (
     <div className="shadow-2xl ">
-      <div className=" flex flex-col p-2 px-10 md:px-40 pt-8 md:pt-16 h-screen bg-cyan-100 text-white ">
+      <div className=" flex flex-col p-2 px-10 md:px-40 pt-8 md:pt-16 h-screen bg-gradient-to-r from-indigo-200 via-purple-200 to-red-200 text-white ">
         <div className="space-y-4 md:space-y-8 ">
           <h1 className=" text-2xl md:text-3xl font-bold ">About Me</h1>
           <div className="flex text-md md:text-lg">
