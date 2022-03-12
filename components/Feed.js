@@ -6,6 +6,8 @@ import Work from "./Work";
 import Resume from "./Resume";
 import Contact from "./Contact";
 import Project from "./Project";
+// import Try from "./Try";
+
 // import Header from "./Header";
 // import { useSpring, animated } from "react-spring";
 
@@ -31,6 +33,7 @@ function Feed() {
         <Work data={resumeData.resume} portfolio={resumeData.portfolio} />
         <Project portfolio={resumeData.portfolio} />
         <Contact data={resumeData} />
+        {/* <Try/> */}
       </div>
     </div>
   );

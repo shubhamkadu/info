@@ -97,9 +97,9 @@ function Home({ data }) {
       />
       {/* <Particles params={particleConfig} height="500px" /> */}
 
-      <div className="absolute space-y-4 font-serif top-2 w-full text-center cursor-pointer">
+      <div className="absolute space-y-4 font-serif top-20 w-full text-center cursor-pointer">
         <div>
-          {transitions(({ innerHeight, ...rest }, item) => (
+          {/* {transitions(({ innerHeight, ...rest }, item) => (
             <animated.div
               // className={styles.transitionsItem}
               style={rest}
@@ -112,15 +112,15 @@ function Home({ data }) {
                 {item}
               </animated.div>
             </animated.div>
-          ))}
+          ))} */}
         </div>
-        {/* <h1 className="md:text-8xl p-5 font-extrabold text-transparent text-5xl bg-clip-text bg-white animate-pulse ">
+        <h1 className="md:text-8xl p-5 font-extrabold text-transparent text-5xl bg-clip-text bg-white animate-pulse ">
           <TypeWriter typing={1}>{`I'm ${name}`}</TypeWriter>
-        </h1> */}
+        </h1>
         <h3 className=" p-2 md:text-xl font-bold text-black">
           <TypeWriter typing={1}>
             Based in India
-            <span className="text-black"></span>.I eat, sleep and breathe
+            <span className="text-black"></span>FullStack Developer.I eat, sleep and breathe
             Technology
           </TypeWriter>
         </h3>
