@@ -23,10 +23,10 @@ function Resume({ data }) {
   return (
     <div
       className="h-200px space-y-6 p-3  flex flex-col pt-[569px] 
-           md:pt-[600px] md:p-40 bg-gradient-to-r from-indigo-200 via-purple-200 to-red-200 scrollbar-hide shadow-2xl"
+           md:pt-[600px] md:p-40 bg-gradient-to-r from-indigo-200 via-purple-200 to-red-200 scrollbar-hide"
     >
       <div className="flex flex-col  space-y-4 md:flex-row md:space-x-40  ">
-        <div className="underline uppercase flex justify-center font-bold md:text-2xl">
+        <div className="underline uppercase flex justify-center font-bold md:text-3xl">
           <h1 className="">Skills</h1>
         </div>
         <div className="pl-4 space-y-4 md:text-left">{skills}</div>

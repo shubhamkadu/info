@@ -45,7 +45,7 @@ function Work({ data, portfolio }) {
           left: "00",
           height: "400px",
         }}
-        className="scrollbar-hide"
+        className="scrollbar-hide border-b-2 border-b-indigo-600   border-t-2 border-t-indigo-600"
       >
         <ParallaxLayer
           offset={0}
@@ -60,7 +60,7 @@ function Work({ data, portfolio }) {
             md:pt-40 md:p-40 bg-gradient-to-r from-indigo-100 via-purple-200 to-red-200  scrollbar-hide "
           >
             <div className="flex flex-col  space-y-4 md:flex-row md:space-x-28 md:flex items-center ">
-              <div className="underline uppercase flex justify-center font-bold md:text-xl ">
+              <div className="underline uppercase flex justify-center font-bold md:text-3xl ">
                 <h1 className="">Education</h1>
               </div>
 
@@ -70,7 +70,7 @@ function Work({ data, portfolio }) {
             </div>
             <hr className="h-20 " />
             <div className="flex flex-col  space-y-4 md:flex-row md:space-x-44 md:flex items-center ">
-              <div className="underline uppercase flex justify-center font-bold md:text-xl ">
+              <div className="underline uppercase flex justify-center font-bold md:text-3xl ">
                 <h1 className="">Work</h1>
               </div>
 
@@ -90,8 +90,14 @@ function Work({ data, portfolio }) {
               Projects
             </h1>
             <div className="flex bg-gradient-to-r from-indigo-200 via-purple-200 to-red-200  space-x-6 overflow-x-scroll  scrollbar-hide pb-80 pt-4 pl-8 -ml-3 cursor-pointer  rounded-t-md">
-              {portfolio?.projects.map(({ title, url, image,demo }) => (
-                <Projects key={title} title={title} url={url} image={image} demo={demo}/>
+              {portfolio?.projects.map(({ title, url, image, demo }) => (
+                <Projects
+                  key={title}
+                  title={title}
+                  url={url}
+                  image={image}
+                  demo={demo}
+                />
               ))}
             </div>
           </div>

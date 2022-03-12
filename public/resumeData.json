@@ -95,22 +95,51 @@
       {
         "title": "Airbnb Clone (Next JS)",
         "category": "",
-        "image": "https://venturebeat.com/wp-content/uploads/2014/07/airbnb-logo-red.jpg?fit=2560%2C1440&strip=all",
+        "image": "https://static.cdnlogo.com/logos/a/94/airbnb.png",
         "url": "https://github.com/shubhamkadu/airbnb-clone",
         "demo": "https://airbnb-clone-git-main-shubhamkadu.vercel.app"
       },
       {
         "title": "Netflix Clone (React JS)",
         "category": "",
-        "image": "https://wallpaperaccess.com/full/2772922.png",
+        "image": "https://1000logos.net/wp-content/uploads/2017/05/Netflix-Logo-2006.png",
         "url": "https://github.com/shubhamkadu/Netflix-clone",
         "demo": "https://clone-netflix-92f95.web.app"
       },
       {
+        "title": "Chat dApp",
+        "category": "",
+        "image": "",
+        "url": "https://github.com/shubhamkadu/D-App",
+        "demo": "https://d-app-shubhamkadu.vercel.app"
+      },
+      {
+        "title": "medium clone",
+        "category": "",
+        "image": "https://seeklogo.com/images/M/medium-logo-F0ACFCCD58-seeklogo.com.png",
+        "url": "https://github.com/shubhamkadu/medium-app",
+        "demo": "https://medium-app-theta.vercel.app"
+      },
+
+      {
+        "title": "Amazon clone",
+        "category": "",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Amazon_icon.svg",
+        "url": "https://github.com/shubhamkadu/Amazon-clone",
+        "demo": " https://amazon-clone-beta-sooty.vercel.app"
+      },
+      {
         "title": "YouTube Clone (MERN)",
         "category": "",
-        "image": "https://4.bp.blogspot.com/-leknhT42cPE/W1tvYU6eEaI/AAAAAAAABO8/tR03GgFQmswm7f9Newy2ZOUGCxf8WWr6wCLcBGAs/s1600/maxresdefault-9.jpg",
-        "url": "",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png",
+        "url": "https://github.com/shubhamkadu/youtube-clone",
+        "demo": ""
+      },
+      {
+        "title": "Spotify clone",
+        "category": "",
+        "image": "https://www.freepnglogos.com/uploads/spotify-logo-png/image-gallery-spotify-logo-21.png",
+        "url": "https://github.com/shubhamkadu/spotify-clone",
         "demo": ""
       }
     ]

@@ -5,6 +5,7 @@ import Home from "./Home";
 import Work from "./Work";
 import Resume from "./Resume";
 import Contact from "./Contact";
+import Project from "./Project";
 // import Header from "./Header";
 // import { useSpring, animated } from "react-spring";
 
@@ -22,12 +23,15 @@ function Feed() {
   console.log(resumeData);
   return (
     <div className="bg-gradient-to-r from-indigo-200 via-purple-200 to-red-200">
-      {/* <Header data={resumeData.main} /> */}
-      <Home data={resumeData.main} />
-      <About data={resumeData.main} />
-      <Resume data={resumeData.resume} />
-      <Work data={resumeData.resume} portfolio={resumeData.portfolio} />
-      <Contact data={resumeData} />
+      <div>
+        {/* <Header data={resumeData.main} /> */}
+        <Home data={resumeData.main} />
+        <About data={resumeData.main} />
+        <Resume data={resumeData.resume} />
+        <Work data={resumeData.resume} portfolio={resumeData.portfolio} />
+        <Project portfolio={resumeData.portfolio} />
+        <Contact data={resumeData} />
+      </div>
     </div>
   );
 }
