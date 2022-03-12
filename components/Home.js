@@ -120,8 +120,8 @@ function Home({ data }) {
         <h3 className=" p-2 md:text-xl font-bold text-black">
           <TypeWriter typing={1}>
             Based in India
-            <span className="text-black"></span>FullStack Developer.I eat, sleep and breathe
-            Technology
+            <span className="text-gray-700"> FullStack Developer</span>.I eat,
+            sleep and breathe Technology
           </TypeWriter>
         </h3>
         <div className="flex text-black justify-center space-x-6 ">
