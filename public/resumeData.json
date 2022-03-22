@@ -10,8 +10,8 @@
     "phone": "+917020868854",
     "address": {
       "city": "India",
-      "District": "Yavatmal",
       "state": "Maharastra",
+      "District": "Yavatmal",
       "zip": "445304"
     },
 
@@ -93,51 +93,65 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Airbnb Clone (Next JS)",
-        "category": "",
-        "image": "https://static.cdnlogo.com/logos/a/94/airbnb.png",
-        "url": "https://github.com/shubhamkadu/airbnb-clone",
-        "demo": "https://airbnb-clone-git-main-shubhamkadu.vercel.app"
+        "title": "Amazon clone",
+        "category": "FullStack",
+        "description": "Shopping application introduce the information about products customers can select the items add to the cart and confirm the order by making payment",
+
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Amazon_icon.svg",
+        "url": "https://github.com/shubhamkadu/Amazon-clone",
+        "demo": " https://amazon-clone-beta-sooty.vercel.app"
       },
       {
         "title": "Netflix Clone (React JS)",
-        "category": "",
+        "category": "FullStack",
+        "description": "This application shows the all categories of movies on netflix and user can play the trailer of movies  ",
+
         "image": "https://1000logos.net/wp-content/uploads/2017/05/Netflix-Logo-2006.png",
         "url": "https://github.com/shubhamkadu/Netflix-clone",
         "demo": "https://clone-netflix-92f95.web.app"
       },
       {
         "title": "Chat dApp",
-        "category": "",
+        "category": "FullStack",
+        "description": "This is the cat application where user needs to login with metamask and create the avatar.chat with friends ",
+
         "image": "",
         "url": "https://github.com/shubhamkadu/D-App",
         "demo": "https://d-app-shubhamkadu.vercel.app"
       },
       {
         "title": "medium clone",
-        "category": "",
+        "category": "FullStack",
+        "description": "blog application where user can post,read,delete and update the different blogs by using sanity studio tools",
+
         "image": "https://seeklogo.com/images/M/medium-logo-F0ACFCCD58-seeklogo.com.png",
         "url": "https://github.com/shubhamkadu/medium-app",
         "demo": "https://medium-app-theta.vercel.app"
       },
 
       {
-        "title": "Amazon clone",
-        "category": "",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Amazon_icon.svg",
-        "url": "https://github.com/shubhamkadu/Amazon-clone",
-        "demo": " https://amazon-clone-beta-sooty.vercel.app"
+        "title": "Airbnb Clone (Next JS)",
+        "category": "FrontEnd",
+        "description": "In this application user can see the information about available house for rent and we can check the location ",
+
+        "image": "https://static.cdnlogo.com/logos/a/94/airbnb.png",
+        "url": "https://github.com/shubhamkadu/airbnb-clone",
+        "demo": "https://airbnb-clone-git-main-shubhamkadu.vercel.app"
       },
       {
         "title": "YouTube Clone (MERN)",
-        "category": "",
+        "category": "FullStack",
+        "description": "Video app where we can create the account, upload the video and like, subscribe,comments to other videos",
+
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png",
         "url": "https://github.com/shubhamkadu/youtube-clone",
         "demo": ""
       },
       {
         "title": "Spotify clone",
-        "category": "",
+        "category": "FrontEnd",
+        "description": "this app gives you the power to listen the songs from Spotify playlist and login with Spotify",
+
         "image": "https://www.freepnglogos.com/uploads/spotify-logo-png/image-gallery-spotify-logo-21.png",
         "url": "https://github.com/shubhamkadu/spotify-clone",
         "demo": ""

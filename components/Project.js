@@ -20,7 +20,7 @@ function Project() {
     config: config.stiff,
     from: { size: "40%" },
     to: {
-      size: open ? "100%" : "40%",
+      size: open ? "100%" : "10%",
       //   background: open ? "white" : "hotpink",
     },
   });
@@ -41,19 +41,23 @@ function Project() {
   ]);
   return (
     <>
-      <div className={`md:h-80 my-40  ${styles.wrapper}`}>
+      <div className={`md:h-80 p-4  ${styles.wrapper}`}>
         <animated.div
           style={{ ...rest, width: size, height: size }}
           className={`grid  grid-cols-2 md:grid-cols-4 bg-gradient-to-r from-indigo-400 via-purple-400 to-red-400 ${styles.container}`}
           onClick={() => set((open) => !open)}
         >
-          <h1 className="md:mx-auto text-lg md:text-3xl md:font-bold ">ReactWork</h1>
+          <h1
+            className={`md:mx-auto text-xs -ml-2  md:text-xl md:font-bold md:ml-4 `}
+          >
+            {open ? "less" : "more"}
+          </h1>
           {transition((style, item) => (
             <animated.div
               className={`${styles.item}`}
               style={{ ...style, background: item.css }}
             >
-              <a href={item.url}>
+              <a target="_blank" href={item.url}>
                 <h1 className="p-4 text-lg font-thin">{item.name}</h1>
               </a>
             </animated.div>

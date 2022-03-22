@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   /* background: lightblue; */
-  padding: 20px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,7 +13,7 @@
   display: grid;
   /* grid-template-columns: repeat(4, minmax(100px, 1fr)); */
   grid-gap: 25px;
-  padding: 25px;
+  padding: 10px;
   /* background: white; */
   border-radius: 5px;
   cursor: pointer;

@@ -31,8 +31,8 @@ function Feed() {
         <About data={resumeData.main} />
         <Resume data={resumeData.resume} />
         <Work data={resumeData.resume} portfolio={resumeData.portfolio} />
-        <Project portfolio={resumeData.portfolio} />
-        <Contact data={resumeData} />
+        {/* <Project portfolio={resumeData.portfolio} /> */}
+        <Contact data={resumeData.main} />
         {/* <Try/> */}
       </div>
     </div>
