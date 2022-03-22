@@ -58,7 +58,7 @@ function Projects({ title, url, image, demo, description }) {
           </div>
         </div>
       </div>
-      <div className="text-xs p-6 md:max-w-sm md:pt-40">
+      <div className="text-xs md:text-lg p-6 md:max-w-sm md:pt-40">
         <p>{description}</p>
       </div>
     </div>

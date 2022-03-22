@@ -29,12 +29,12 @@ function Home({ data }) {
             sleep and breathe Technology
           </TypeWriter>
         </h3>
-        <div className="flex text-black justify-center space-x-6 ">
+        <div className="flex text-indigo-900 justify-center space-x-6 ">
           <div className="flex space-x-6">
             <a
               target="_blank"
               href="https://github.com/shubhamkadu"
-              className="hover:text-red-900  md:pt-2 hover:scale-105
+              className="hover:text-black  md:pt-2 hover:scale-105
             transform transition duration-300 ease-out"
             >
               <AiOutlineGithub size={30} />
@@ -42,7 +42,7 @@ function Home({ data }) {
             <a
               target="_blank"
               href="https://www.linkedin.com/in/shubham-kadu-20b3791bb/"
-              className="hover:text-red-900  md:pt-2  hover:scale-105
+              className="hover:text-black md:pt-2  hover:scale-105
         transform transition duration-300 ease-out"
             >
               <FiLinkedin size={30} />
