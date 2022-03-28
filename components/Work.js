@@ -11,7 +11,7 @@ function Work({ data, portfolio }) {
       </h1>
 
       <div className=" grid grid-cols-1 gap-y-8  lg:grid-cols-1 xl:grid-cols-1 space-x-6 p-4 md:mx-40 pb-1 pt-4 pl-8 -ml-3 cursor-pointer  rounded-t-md">
-        {portfolio?.projects.map(({ title, url, image, demo,description }) => (
+        {portfolio?.projects.map(({ title, url, image, demo, description }) => (
           <Zoom>
             <Projects
               key={title}
