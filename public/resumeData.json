@@ -1,6 +1,6 @@
 {
   "main": {
-    "name": "shubham kadu",
+    "name": "Shubham kadu",
     "occupation": "FullStack Developer",
     "description": "I eat, sleep and breathe Technology",
     "image": "profilepic.jpg",
@@ -66,6 +66,10 @@
       },
       {
         "name": "JavaScript",
+        "level": "75%"
+      },
+      {
+        "name": "TypeScript",
         "level": "75%"
       },
       {
