@@ -30,7 +30,7 @@ function About({ data }) {
           <div>
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/17vcBnFnWJtNA49ODY3OMwZ1RvN7FEWIi/view?usp=sharing"
+              href="https://drive.google.com/file/d/1bg-Ob-1hhTifyMXH-UpoRm3Am-zSyuTC/view?usp=sharing"
             >
               <div className="flex  md:ml-80 md:mt-[20px] max-w-[120px]  bg-white rounded-lg text-black p-3 space-x-2">
                 <button className="font-semibold md:text-1xl">Resume</button>
