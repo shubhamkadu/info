@@ -19,7 +19,7 @@ function Home({ data }) {
       />
 
       <div className="absolute space-y-4 font-serif top-20 w-full text-center cursor-pointer">
-        <h1 className="md:text-8xl p-5 font-extrabold text-transparent text-5xl bg-clip-text bg-white animate-pulse ">
+        <h1 className="md:text-8xl p-5 font-extrabold text-transparent text-5xl bg-clip-text bg-white  ">
           <TypeWriter typing={1}>{`I'm ${data?.name}`}</TypeWriter>
         </h1>
         <h3 className=" p-2 md:text-xl font-bold text-black">

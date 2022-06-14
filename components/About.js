@@ -34,7 +34,7 @@ function About({ data }) {
             >
               <div className="flex  md:ml-80 md:mt-[20px] max-w-[120px]  bg-white rounded-lg text-black p-3 space-x-2">
                 <button className="font-semibold md:text-1xl">Resume</button>
-                <FaDownload className="mt-2" />
+                <FaDownload className="mt-2 animate-bounce" />
               </div>
             </a>
           </div>

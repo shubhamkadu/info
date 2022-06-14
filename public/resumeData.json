@@ -50,11 +50,19 @@
     "skills": [
       {
         "name": "Nextjs",
-        "level": "60%"
+        "level": "70%"
       },
       {
         "name": "ReactJs",
-        "level": "80%"
+        "level": "98%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "94%"
+      },
+      {
+        "name": "TypeScript",
+        "level": "75%"
       },
       {
         "name": "Python",
@@ -62,19 +70,11 @@
       },
       {
         "name": "Git",
-        "level": "40%"
-      },
-      {
-        "name": "JavaScript",
-        "level": "75%"
-      },
-      {
-        "name": "TypeScript",
-        "level": "75%"
+        "level": "60%"
       },
       {
         "name": "Tailwind Css",
-        "level": "80%"
+        "level": "90%"
       },
       {
         "name": "Nodejs",
@@ -90,7 +90,7 @@
       },
       {
         "name": "Web Development",
-        "level": "85%"
+        "level": "100%"
       }
     ]
   },
