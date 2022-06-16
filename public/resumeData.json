@@ -109,10 +109,9 @@
         "title": "Netflix Clone (React JS)",
         "category": "FullStack",
         "description": "This application shows the all categories of movies on netflix and user can play the trailer of movies  ",
-
         "image": "https://1000logos.net/wp-content/uploads/2017/05/Netflix-Logo-2006.png",
         "url": "https://github.com/shubhamkadu/Netflix-clone",
-        "demo": ""
+        "demo": "https://clone-netflix-92f95.web.app/"
       },
       {
         "title": "Chat dApp",
@@ -146,7 +145,6 @@
         "title": "YouTube Clone (MERN)",
         "category": "FullStack",
         "description": "Video app where we can create the account, upload the video and like, subscribe,comments to other videos",
-
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png",
         "url": "https://github.com/shubhamkadu/youtube-clone",
         "demo": ""
@@ -155,10 +153,9 @@
         "title": "Spotify clone",
         "category": "FrontEnd",
         "description": "this app gives you the power to listen the songs from Spotify playlist and login with Spotify",
-
         "image": "https://www.freepnglogos.com/uploads/spotify-logo-png/image-gallery-spotify-logo-21.png",
         "url": "https://github.com/shubhamkadu/spotify-clone",
-        "demo": ""
+        "demo": "https://spotify-clone-nine-wine.vercel.app/login"
       }
     ]
   }
